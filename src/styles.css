@@ -1,0 +1,64 @@
+/* src/styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/background.png");
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 100vh; /* Makes it occupy the full viewport height */
+  font-family: Arial, sans-serif; /* Optional: Set a font family */
+}
+
+.search-results {
+  padding: 120px;
+  max-width: 1200px;
+  width: 100%;  /* Ensures it takes up full width */
+  margin: 0 auto;  /* Horizontally centers the container */
+  text-align: center;
+  box-sizing: border-box;
+  display: block;  /* Change to block to prevent flexbox shrinkage */
+}
+
+
+
+h2 {
+  margin-bottom: 20px;
+  color: #010810;
+}
+
+.swiper-container {
+  display: flex;
+  justify-content: center; /* Centers the swiper container itself */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.center-card {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.center-card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.center-card button:hover {
+  background-color: #0056b3;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;  /* Centers the content inside the swiper slide */
+}
